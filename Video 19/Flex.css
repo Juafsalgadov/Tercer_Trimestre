@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    height: 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.Contenido-1 {
+    background-color: black;
+    /*height: 200px;*/
+    width: 200px;
+    border: 1px solid red;
+    color: white;
+}
+.Contenido-2 {
+    background-color: black;
+    /*height: 200px;*/
+    width: 200px;
+    border: 1px solid red;
+    color: white;
+}
+.Contenido-3 {
+    background-color: white;
+    /*height: 200px;*/
+    width: 200px;
+    border: 1px solid red;
+}

@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+}
+p {
+    color: violet;
+    font-size: 15pt;
+}
+#primera-noticia {
+    color: green;
+    font-size: 10pt;
+}
+
+#segunda-noticia {
+    color:aliceblue;
+}
+.encabezado {
+    font-size: 24pt;
+    text-transform:uppercase;
+}
+*WARNING {
+    color: red;
+}
+.Autor, .Fecha {
+    text-decoration: underline;
+}
+
+.Ubicacion{
+    text-decoration: solid;
+}

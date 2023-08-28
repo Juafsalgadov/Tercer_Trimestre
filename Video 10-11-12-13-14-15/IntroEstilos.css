@@ -1,0 +1,44 @@
+/* Estilos para colores */
+.colores {
+    color:darkred;
+}
+.color-hexadecimal {
+    color: #0df2c9;
+}
+.Color-RGB {
+    color: rgb(100, 0, 200);
+}
+.Color-RGBA {
+    color: rgba(10, 10, 10, 10)
+}
+/* Fondos */
+.Fondo {
+    background-color: #5c2c9f;
+    background-image: url("https://www.creativosonline.org/wp-content/uploads/2021/05/fondos-de-colores-3.jpg");
+    background-position: left bottom;
+}
+/* Fondos Internos */
+.Fondo-Interno {
+    background-color: #5c2c9f;
+    background-image: url("Imagenes/colores-vibrantes_3840x2160_xtrafondos.com.jpg");
+    background-position: left bottom;
+}
+/*estilos de tamaño*/
+.Ancho {
+    background-color: beige;
+    width: 100px;
+}
+.Alto {
+    background-color: blue;
+    height: 200px;
+}
+.Tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 60, 102);
+    border-left: 1px;
+    padding: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    margin: 10px 20px;
+    /*margin: 10px 20px 30px 40px;*/
+    /*border-top: none;*/
+}
