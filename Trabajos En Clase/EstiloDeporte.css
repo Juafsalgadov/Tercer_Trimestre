@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+nav a {
+    color: green;
+    text-decoration: none;
+    margin-left: 1rem;
+    display: grid;
+    position: static;
+    top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 2rem;
+  }
+.DOCE {
+    display: grid;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    grid-template-columns: repeat(1, 3fr);
+
+  }
+  
+.flex-box {
+    display: grid;
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    margin-right: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+.grid2 {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+.imgparkour {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.imgBMX {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.imgskate {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.imgtejo {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
