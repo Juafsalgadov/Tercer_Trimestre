@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: royalblue;
+}
+.hover:hover { /*Para denotar cuando el raton pasa por encima*/
+    background-color: rgb(184, 13, 13);
+}
+.Listado {
+    padding: 15px;
+    background-color: aquamarine;
+}
+.Listado p:first-child {
+    color: white;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: crimson;
+}
+a:hover {
+    color: royalblue;
+}
+a:active {
+    color: green;
+}
